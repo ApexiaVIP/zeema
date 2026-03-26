@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import heroImg from "@/assets/hero-racing.jpg";
+import zeemaLogo from "@/assets/zeema-logo.png";
 
 const Hero = () => {
   return (
@@ -29,16 +30,12 @@ const Hero = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 1, delay: 0.3 }}
         >
-          <p className="section-subheading mb-6">Motorsport Consultancy Since 2004</p>
-          <h1 className="font-display text-6xl md:text-8xl lg:text-9xl font-bold tracking-[0.1em] text-bright mb-6">
-            ZEEMA
-          </h1>
+          <img src={zeemaLogo} alt="Zeema" className="h-24 md:h-32 lg:h-40 mx-auto mb-6" />
           <div className="flex justify-center mb-8">
             <div className="accent-line" />
           </div>
-          <p className="font-body text-lg md:text-xl text-silver max-w-2xl mx-auto leading-relaxed">
-            Elite technical and strategic consultancy for motor racing teams across the globe.
-            From pit lane to podium — precision, performance, excellence.
+          <p className="font-condensed text-sm md:text-base tracking-[0.25em] uppercase text-silver">
+            Motorsport Solutions Since 2004
           </p>
         </motion.div>
 
