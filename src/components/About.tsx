@@ -23,16 +23,15 @@ const About = () => {
             <div className="space-y-6 font-body text-base text-silver leading-relaxed">
               <p>
                 Through the application of the principles of total commitment, quality and excellence,
-                Zeema has established itself within the automotive industry since its inception in 2004.
+                Zeema has established itself within the motorsport industry since its inception in 2004.
               </p>
               <p>
-                Working across motorsport solutions and technical support, manufacturer vehicle homologation,
-                vehicle developments and bespoke vehicle projects — we bring two decades of elite-level
-                experience to every engagement.
+                Offering motorsport solutions, technical and administrative support, we bring over two
+                decades of elite-level experience to every engagement.
               </p>
               <p>
                 Our involvement spans the highest levels of motor racing around the globe, where precision,
-                quality and time management are not optional — they are everything.
+                quality and time management are not optional.
               </p>
             </div>
           </motion.div>

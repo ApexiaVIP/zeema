@@ -1,12 +1,13 @@
 import { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
+import zeemaLogo from "@/assets/zeema-logo-nav.png";
 
 const navItems = [
   { label: "Home", href: "#home" },
   { label: "Services", href: "#services" },
   { label: "About", href: "#about" },
-  { label: "Partners", href: "#partners" },
+  
   { label: "Contact", href: "#contact" },
 ];
 
@@ -30,8 +31,8 @@ const Navbar = () => {
       }`}
     >
       <div className="container mx-auto flex items-center justify-between py-5 px-6">
-        <a href="#home" className="font-display text-2xl font-bold tracking-[0.15em] text-bright">
-          ZEEMA
+        <a href="#home">
+          <img src={zeemaLogo} alt="Zeema" className="h-10" />
         </a>
 
         {/* Desktop */}
