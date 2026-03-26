@@ -1,3 +1,5 @@
+import zeemaLogo from "@/assets/zeema-logo-nav.png";
+
 const Footer = () => {
   return (
     <footer className="py-10 bg-background border-t border-border">
