@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { ChevronDown } from "lucide-react";
 import heroImg from "@/assets/hero-racing.jpg";
+import zeemaLogo from "@/assets/zeema-logo.png";
 
 const Hero = () => {
   return (
